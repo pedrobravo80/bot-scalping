@@ -1,8 +1,8 @@
 from flask import Flask, request
 import requests, time, hmac, hashlib, json, os
 
-API_KEY = os.environ.get("API_KEY")
-SECRET_KEY = os.environ.get("SECRET_KEY")
+API_KEY = os.environ.get("763B3D98F41E40DE9C7B8299D33D8E90")
+SECRET_KEY = os.environ.get("322B07B99292AEBA1BQZKqdp2CV3QV5nUEsqSg1ygegLmqRygj")
 
 app = Flask(__name__)
 
